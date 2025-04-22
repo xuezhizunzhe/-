@@ -34,3 +34,5 @@ func main() {
 	}
 	wg.Wait() // 阻塞等待，直到等待组 wg.Add(1) 的计数为0，即所有goroutine都执行完毕
 }
+
+// 0.5
